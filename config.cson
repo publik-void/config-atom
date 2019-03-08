@@ -1,0 +1,71 @@
+"*":
+  Hydrogen:
+    gateways: "[{ \"name\": \"lasse-bsd-0:8888\", \"options\": { \"baseUrl\": \"http://lasse-bsd-0:8888\", \"token\": \"243769f4fd11498afb4052aeb54b36bfc7a4a580747ab9d1\" } }]"
+    globalMode: true
+    startDir: "dirOfFile"
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+    minimumWordLength: 2
+    useCoreMovementCommands: false
+  core:
+    disabledPackages: [
+      "find-and-replace"
+      "welcome"
+      "Hydrogen"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  editor:
+    atomicSoftTabs: false
+    fontFamily: "Hack"
+    invisibles: {}
+    lineHeight: 1.3
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "4d66fcc3-9d5f-4718-a972-052cc94452e5"
+  "file-icons": {}
+  "julia-client":
+    firstBoot: false
+    juliaOptions:
+      deprecationWarnings: false
+    uiOptions:
+      docsDisplayMode: "inline"
+      enableMenu: true
+      errorNotifications: false
+      notifications: false
+      useStandardLayout: true
+  minimap:
+    absoluteMode: true
+    displayPluginsControls: false
+    redrawDelay: 100
+    scrollAnimation: true
+    scrollAnimationDuration: 50
+  "spell-check":
+    locales: [
+      "en-US"
+      "de-DE"
+    ]
+  "status-bar":
+    cursorPositionFormat: "%L,%C"
+    selectionCountFormat: "(%L,%C)"
+  tabs:
+    alwaysShowTabBar: false
+    enableVcsColoring: true
+  "tool-bar":
+    position: "Left"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "uber-juno":
+    disable: true
+  "vim-mode-plus":
+    ignoreCaseForSearch: true
+    wrapLeftRightMotion: true
+  welcome:
+    showOnStartup: false
