@@ -14,6 +14,11 @@
       "welcome"
       "Hydrogen"
       "julia-client"
+      "indent-detective"
+      "ink"
+      "language-julia"
+      "latex-completions"
+      "uber-juno"
     ]
     telemetryConsent: "limited"
     themes: [
